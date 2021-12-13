@@ -1,0 +1,44 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { background-color: #F2F5A9; text-align: center;
+    font-family: 'ONE-Mobile-POP';}
+
+.szn {
+    margin: 120px;
+}
+.szn p { 
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.main li { height:520px; float:left; width:23%; margin-right:1.3333%; color:#fff;
+    position:relative; }
+
+.main li:nth-child(1) { background:url(../img/doy.jpeg) no-repeat center;
+    background-size:cover; margin-left: 2%;}
+
+.main li:nth-child(2) { background:url(../img/jae.jpeg) no-repeat center;
+       background-size:cover; }
+
+.main li:nth-child(3) { background:url(../img/jung.jpeg) no-repeat center;
+    background-size:cover; }
+
+.main li:nth-child(4) { background:url(../img/mark.jpeg) no-repeat center;
+    background-size:cover; }
+
+.main li div { position:absolute; bottom:25px; left:25px; right:25px; transition: all 0.4s;}
+
+.main li div a { 
+    display: inline-block; padding: 10px 40px ;
+    border: solid 2px #0000FF;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+}
